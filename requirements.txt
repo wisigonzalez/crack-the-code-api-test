@@ -1,0 +1,7 @@
+Django==4.2
+
+# Dependency for API Rest
+djangorestframework==3.14.0
+
+# Dependency for swagger and api docs
+drf_yasg==1.21.5

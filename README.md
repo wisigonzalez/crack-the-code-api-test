@@ -1,7 +1,5 @@
 # Crack the code api test
 
-- Structure for a basic system of online courses.
-
 ## Stack
 
 - Backend
@@ -20,6 +18,8 @@
 
 ## Requeriments
 Mandatory
+
+- Python >= 3.11.3
 
 If you have installed pip3
 - pip3 install -r requirements.txt
@@ -46,22 +46,22 @@ If you wish run the project with python, then:
 4. go to `http://localhost:8000/`
 5. see the magic
 
-If you wish see the api root, then:
-
-1. go to `http://localhost:8000/crack-the-code/api`
-
 If you wish see the api doc, then:
 
 1. go to `http://localhost:8000/crack-the-code/api-docs`
 
-If you wish see the api re doc, then:
-
-1. go to `http://localhost:8000/crack-the-code/api-re-docs`
-
 If you wish see the admin, then:
 
 1. go to `http://localhost:8000/crack-the-code/admin`
-2. introduce the user and password that you created previously `(With the command python manage.py createsuperuser)`
+2. enter the username and password you created previously `(With the command python manage.py createsuperuser)`
+
+If you wish see the api root, then:
+
+1. go to `http://localhost:8000/crack-the-code/api`
+
+If you wish see the api re doc, then:
+
+1. go to `http://localhost:8000/crack-the-code/api-re-docs`
 
 ## Folder structure
 Explanation of hierarchies in files and layers.
@@ -75,10 +75,11 @@ Explanation of hierarchies in files and layers.
 
 - `main` >>> All features
 - `feature/initial-configuration-and-endpoints` >>> initial configurations and create CRUD's.
+- `bgfix/documentation` >>> Fix the documentation.
 
 ## Other details
 
-- N/A
+- This is a basic system of online courses.
 
 # License
 
